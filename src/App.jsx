@@ -123,15 +123,15 @@ function App() {
         <Typography variant='h4' color='white'>  25 + 5 Clock</Typography>
         <Box display='flex' gap={10}>
           <Box display='flex' flexDirection='column'>
-            <Typography variant='h5' color='white'> Break Length </Typography>
+            <Typography textAlign='center' variant='h5' color='white'> Break Length </Typography>
             <Box display='flex' justifyContent='center' gap={3}>
               <ArrowDownwardIcon onClick={() => breack <= 1 ? 0 : decrementarBreack()} sx={{color: 'white', cursor: 'pointer'}}/>
               <Typography variant='h6' color='white'> {breack} </Typography>
               <ArrowUpwardIcon onClick={() => incrementarBreack()} sx={{color: 'white', cursor: 'pointer'}}/>
             </Box>
           </Box>
-          <Box>
-            <Typography variant='h5' color='white'> Session Length </Typography>
+          <Box display='flex' flexDirection='column' justifyContent='center' alignItems='center'>
+            <Typography textAlign='center' variant='h5' color='white'> Session Length </Typography>
             <Box display='flex' justifyContent='center' gap={3}>
               <ArrowDownwardIcon onClick={() => session <= 1 ? 0 : decrementarSeccion()} sx={{color: 'white', cursor: 'pointer'}}/>
               <Typography variant='h6' color='white'> {session} </Typography>
