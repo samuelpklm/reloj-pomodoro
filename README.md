@@ -21,7 +21,7 @@ This is a solution to the [Random Quote Machine]([https://www.freecodecamp.org/l
 ### Links
 
 - Solution URL: [Solution](https://github.com/samuelpklm/reloj-pomodoro)
-- Live Site URL: [Live Site]([https://samuelpklm.github.io/quote/](https://samuelpklm.github.io/reloj-pomodoro/))
+- Live Site URL: [Live Site](https://samuelpklm.github.io/reloj-pomodoro/)
 
 ## My process
 
